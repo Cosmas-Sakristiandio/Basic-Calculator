@@ -53,6 +53,7 @@ yNumberOne = int()
 yNumberTwo = int()
 
 # Main Program
+callingUI()
 yourName = input("Please Input Your Nickname : ")
 
 # No Number Please
@@ -60,20 +61,19 @@ while yourName.isdigit():
     print("Your Nickname Can't Contains any Number")
     yourName = input("Please Input Your Real Nickname : ")
 
-callingUI()
 welcomeNickname(yourName)
 askForInput(yNumberOne, yNumberTwo)
 praOps()
 
-chooseOps = input("Please, Choose The Function Your Want : ")
 print("1. Addition")
 print("2. Multiplication")
 print()
 print("Okay, This is The Result!")
+chooseOps = input("Please, Choose The Function Your Want : ")
 
-if chooseOps == 1:
-    Addition()
-elif chooseOps == 2:
-    Multiplication()
+#if chooseOps == 1:
+
+#elif chooseOps == 2:
+
 # else:
 # while choose0ps <=2 && >=1:
