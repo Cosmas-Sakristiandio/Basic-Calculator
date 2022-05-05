@@ -30,6 +30,7 @@ def callingUI():
     print(uI4.center(30))
     print("")
 
+
 def praOps():
     # BasicUI
     p1 = "Now, Please Choose Operation Your Want"
@@ -38,9 +39,13 @@ def praOps():
     print(p2.center(30))
     print("")
 
+
 def Addition(results):
+    return results
+
 
 def Multiplication(results):
+    return results
 
 
 # Declaration
@@ -60,7 +65,6 @@ welcomeNickname(yourName)
 askForInput(yNumberOne, yNumberTwo)
 praOps()
 
-
 chooseOps = input("Please, Choose The Function Your Want : ")
 print("1. Addition")
 print("2. Multiplication")
@@ -68,10 +72,8 @@ print()
 print("Okay, This is The Result!")
 
 if chooseOps == 1:
-    Addition(results)
+    Addition()
 elif chooseOps == 2:
-    Multiplication(results)
-#else:
-    #while choose0ps <=2 && >=1:
-
-
+    Multiplication()
+# else:
+# while choose0ps <=2 && >=1:
